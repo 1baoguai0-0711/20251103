@@ -1,0 +1,17 @@
+@'
+id,question,choice1,choice2,choice3,choice4,answer,feedback
+1,"下列哪一個是 HTML 的標記語言？","Python","HTML","C++","SQL",1,"HTML 用來描述網頁結構。"
+2,"哪個標記用於建立超連結？","<a>","<div>","<img>","<span>",0,"<a> 用來建立超連結。"
+3,"CSS 用途為何？","伺服器端程式","資料庫管理","樣式與版面配置","影像編輯",2,"CSS 控制樣式與版面。"
+4,"JS 常用來做什麼？","資料庫備份","網頁互動","建立樹狀結構","編輯影片",1,"JavaScript 常用於網頁互動與行為。"
+5,"下列哪個不是程式語言？","Ruby","HTML","Go","Rust",1,"HTML 是標記語言，不是程式語言。"
+6,"HTTP 的主要用途是？","傳輸網頁資源","加密硬碟","編譯程式","管理使用者",0,"HTTP 是用來傳輸網頁資源的協定。"
+7,"哪一項可以用來建立響應式網頁？","CSS Media Queries","純 HTML","SQL 語法","Python 模組",0,"使用 Media Queries 等技術可實現響應式設計。"
+8,"哪個屬性可改變文字顏色？","background-color","font-size","color","border",2,"color 屬性用於設定文字顏色。"
+9,"課堂上介紹了哪兩種主要的 AI 輔助工具？","Gemini 與 Copilot","Siri 與 Alexa","ChatGPT 與 DALL-E","僅有 Gemini",0,"課堂上主要介紹了 Gemini 與 Copilot 作為 AI 輔助工具。"
+10,"上課需要安裝什麼軟體？","VScode","Photoshop","Excel","Android Studio",0,"VScode 是我們上課主要的程式碼編輯器。"
+11,"上課是用什麼軟體做筆記？","HackMD","Notion","Evernote","Word",0,"HackMD 是我們上課主要的筆記與共筆工具。
+12,"禮拜幾上程式設計與實習？","禮拜一","禮拜二","禮拜三","禮拜四",0,"程式設計與實習的上課時間是禮拜一。"
+13,"單元一的作品主題是什麼？","製作圓的特效與聲音","製作方的特效與聲音","製作三角的特效與聲音","僅有圓的特效",0,"單元一的作品主題是製作圓的特效與聲音。"
+14,"禮拜一幾點開始上程式設計與實習？","9:10","8:10","10:10","13:10",0,"程式設計與實習的上課時間是禮拜一早上 9:10。"
+'@ | Out-File -FilePath "C:\Users\Admin\Downloads\20251103\question_bank.csv" -Encoding utf8
